@@ -1,9 +1,11 @@
 <template>
   <div>
     <h1>Información de usuario</h1>
-    <router-link :to="{params:{ id: user} }" v-for="user in ArregloUsuario" :key="user">
-      <button>{{user}}</button>
-    </router-link>
+    <div class="btn-group">
+      <router-link :to="{params:{ id: user} }" v-for="user in ArregloUsuario" :key="user">
+        <button class="btn btn-link">{{user}}</button>
+      </router-link>
+    </div>
     <usuario/>
   </div>
 </template>
