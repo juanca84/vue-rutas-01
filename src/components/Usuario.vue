@@ -1,6 +1,6 @@
 <template>
     <div>
-        <h1>Información de usuario: <strong>{{ $route.params.id }}</strong></h1>
+        <h1>Usuario: <strong>{{ $route.params.id }}</strong></h1>
     </div>
 </template>
 
