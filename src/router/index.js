@@ -6,6 +6,7 @@ import Usuarios from '../views/Usuarios.vue'
 import Login from '../views/Login.vue'
 import Signup from '../views/Signup.vue'
 import Productos from '../views/productos/Index.vue'
+import Detalle from '../views/productos/Detalle.vue'
 
 Vue.use(VueRouter)
 
@@ -44,6 +45,10 @@ Vue.use(VueRouter)
     path: '/productos',
     name: 'Productos',
     component: Productos
+  }, {
+    path: '/producto-detalle',
+    name: 'producto-detalle',
+    component: Detalle
   }
 ]
 
