@@ -12,7 +12,7 @@
                     <div class="col-md-12">
                         <h4>Título de Producto 0</h4>
                         <p>Descripción de producto 0</p>
-                        <a href="#" class="btn btn-success" btn-sm>Agregar al carro</a>
+                        <router-link :to="{name:'producto', params:{id:0}}" class="btn btn-success">Ver detalle</router-link>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -22,7 +22,7 @@
                     <div class="col-md-12">
                         <h4>Título de Producto 1</h4>
                         <p>Descripción de producto 1</p>
-                        <a href="#" class="btn btn-success" btn-sm>Agregar al carro</a>
+                        <router-link :to="{name:'producto', params:{id:1}}" class="btn btn-success">Ver detalle</router-link>
                     </div>
                 </div>
                 <div class="col-md-3">
@@ -32,7 +32,7 @@
                     <div class="col-md-12">
                         <h4>Título de Producto 2</h4>
                         <p>Descripción de producto 2</p>
-                        <a href="#" class="btn btn-success" btn-sm>Agregar al carro</a>
+                        <router-link :to="{name:'producto', params:{id:2}}" class="btn btn-success">Ver detalle</router-link>
                     </div>
                 </div>
                                 <div class="col-md-3">
@@ -42,7 +42,7 @@
                     <div class="col-md-12">
                         <h4>Título de Producto 3</h4>
                         <p>Descripción de producto 3</p>
-                        <a href="#" class="btn btn-success" btn-sm>Agregar al carro</a>
+                        <router-link :to="{name:'producto', params:{id:3}}" class="btn btn-success">Ver detalle</router-link>
                     </div>
                 </div>
                                 <div class="col-md-3">
@@ -52,7 +52,7 @@
                     <div class="col-md-12">
                         <h4>Título de Producto 4</h4>
                         <p>Descripción de producto 4</p>
-                        <a href="#" class="btn btn-success" btn-sm>Agregar al carro</a>
+                        <router-link :to="{name:'producto', params:{id:4}}" class="btn btn-success">Ver detalle</router-link>
                     </div>
                 </div>
             </div>
