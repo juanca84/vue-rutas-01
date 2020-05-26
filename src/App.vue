@@ -1,11 +1,8 @@
 <template>
   <div id="app">
-    <ul class="nav justify-content-end">
+    <ul class="nav justify-content-center">
       <li class="nav-item">
         <router-link to="/login" class="nav-link">Login</router-link>  
-      </li>
-      <li class="nav-item">
-        <router-link to="/signup" class="nav-link">SignUp</router-link>
       </li>
       <li class="nav-item">
         <router-link to="/" class="nav-link">Home</router-link>
