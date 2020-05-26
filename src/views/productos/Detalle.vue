@@ -12,7 +12,7 @@
                         <img src="http://placehold.it/200x100/000" alt="imagen prueba">
                     </div>
                     <div class="col-md-12">
-                        <h4>Título de Producto 0</h4>
+                        <h4>Título de Producto {{id}}</h4>
                         <p>Descripción de producto 0</p>
                         <a href="#" class="btn btn-success" btn-sm>Agregar al carro</a>
                     </div>
@@ -24,7 +24,11 @@
 
 <script>
     export default {
-        
+        data(){
+            return{
+                id: this.$route.params.id
+            }
+        }
     }
 </script>
 

@@ -46,7 +46,7 @@ Vue.use(VueRouter)
     name: 'Productos',
     component: Productos
   }, {
-    path: '/producto-detalle',
+    path: '/producto-detalle/:id',
     name: 'producto-detalle',
     component: Detalle
   }
